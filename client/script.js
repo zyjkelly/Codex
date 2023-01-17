@@ -86,8 +86,8 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://openai-test-cubp.onrender.com/', {
-    //const response = await fetch('https://openai-a1.onrender.com/secret-chat/', {
+    //const response = await fetch('https://openai-test-cubp.onrender.com/', {
+    const response = await fetch('https://codex-43pv.onrender.com', {
 
         method: 'POST',
         headers: {
